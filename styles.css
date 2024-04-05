@@ -1,0 +1,368 @@
+#top-nav-bar {
+    height: 0;
+    display: block;
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 4;
+  font-size: 16px;
+  
+} 
+#pagetop {
+   
+    
+    background-color: #410C00;
+    padding-left: 10px;
+    padding-right: 16px;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+    min-width: 330px;
+    font-size: 1.4rem;
+}
+
+#top-nav-bar a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+}
+
+#top-nav-bar a:hover {
+    background-color: #dddddd;
+    color: rgb(210, 145, 145);
+}
+/*navigation bar*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Add some margin to the top of the page content */
+#top-nav-bar ~ .Snicker.bar {
+    margin-top: 1rem;
+}
+
+ /* Style for header */
+ header {
+    text-align: center;
+    padding-top: 40px ;
+    color: #410C00;
+}
+
+/* Style for main content */
+main {
+    padding: 10px;
+   color:   #410C00;
+   padding-bottom: 80px;
+   
+}
+
+.intro{
+  display: flex;
+  align-items: center;
+}
+
+.intro-text{
+    flex: 1;
+    padding: 20PX;
+}
+
+.sideimage {
+    flex: 1;
+    text-align: right;
+    width: 450PX;
+    height: auto;
+    float: right;
+    
+}
+
+.factslist, p {
+    color: #210082;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+
+/* Style for sections */
+section {
+    margin-bottom: 20px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.centered-image{
+   width: 100%;
+   height: auto;
+
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+
+}
+
+.centered-text h3 {
+    margin: 0;
+   font-size: 1.875rem;
+}
+
+/* Style for footer */
+footer {
+    background-color: #410C00;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+     
+}
+
+.footer-text {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5 rem;
+    text-align: center;
+    color: #dddddd;
+  
+}
+
+.icon-style {
+    height: 2.5em;
+
+}
+
+.information {
+background-color: #E5AC49;
+}
+
+.information h2{
+padding: 30px;
+}
+
+.aboutus {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    padding:40px;
+}
+
+.aboutus h3{
+    color: #210082;
+}
+
+.aboutustext{
+    color: #410C00;
+}
+
+.aboutus.even .aboutustext, .aboutus.odd .aboutusimage {
+    order: 2;
+}
+
+.aboutus.even .aboutusimage, .aboutus.odd .aboutustext {
+    order: 1;
+}
+.aboutusimage {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.aboutustext {
+    font-size: 20px;
+}
+
+
+
+
+
+h2{
+    text-align: center;
+}
+
+
+/* Style the nutrition section */
+.nutrition {
+    background: #FFFFFF;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 50px;
+  }
+  
+  .nutrition h2 {
+    padding: 20px;
+    background: #F3801E;
+    color: #410C00;
+    font-size: 32px;
+    text-transform: uppercase;
+    border-radius: 5px 5px 0 0;
+    margin: 0;
+  }
+  
+  .nutrition table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .nutrition th,
+  .nutrition td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #E5E5E5;
+    color: #410C00;
+  }
+  
+  .nutrition th {
+    background: #F3801E;
+    color: #410C00;
+    border-radius: 5px 5px 0 0;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+
+  /*form*/
+  .contact {
+    padding: 20px;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc; /* Add border */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    background-color: white; /* Optional: Add background color */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #410C00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/*product*/
+ /* Style the images section */
+ .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .images img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .images img:hover {
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .images .details-link {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .images .details-link:hover {
+    text-decoration: underline;
+  }
+
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 30px;
+  }
+  
+  .product-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+  }
